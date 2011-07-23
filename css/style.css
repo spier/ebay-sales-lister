@@ -1,0 +1,46 @@
+
+/* defines the whole area in which the ebay auctions are displayed */
+.ebay {
+}
+
+/* the title above all ebay sales */
+.ebay .ebay_title {
+}
+
+/* list element representing one ebay sale */
+.ebay .ebay_sale{
+	height:			92px;
+	padding-top:	8px;
+}
+
+/* the area that contains info about end time and price of the auction */
+.ebay .ebay_sale_info{
+	position: 		relative;
+	top: 			8px;
+	left: 			8px;
+	font-size: 		1.1em;
+	line-height: 	1.3em;
+}
+
+/* the link of the ebay sale */
+.ebay .ebay_sale_info a{
+}
+
+/* the class around the ebay sale image */
+.ebay .ebay_sale_image{
+	height:			84px; 
+	width:			80px; 
+	padding: 		4px; 
+	float:			right;
+	margin-left:	8px;
+}
+
+/* style information for the thumbnail of the auction itself */
+.ebay .ebay_sale_image img{
+	border:			none;
+}
+
+/* list element that is displayed when there are no sales */
+.ebay .ebay_no_sales{
+	font-size: 1.3em;
+}

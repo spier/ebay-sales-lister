@@ -1,0 +1,32 @@
+
+/* defines the whole area in which the ebay auctions are displayed */
+.ebay_admin_label {
+	width: 			160px;
+	font-weight:	bold;
+	text-align:		right;
+	padding-right:	8px;
+}
+
+.ebay_admin_label_description {
+	font-weight:	normal;
+	text-align:		right;
+	padding-right:	8px;
+	font-size:		10px;
+}
+
+/* styles the text input fields in a similar way as the dropdowns */
+.ebay_admin_input_textfield {
+	width: 				150px;
+	border-style:		solid;
+	border-width:		1px;
+	font-size:			11px;
+	height:				2em;
+	line-height:		20px;
+	padding: 			4px 2px 2px 4px;
+	
+	font-size-adjust:	none;
+	font-stretch:		normal;
+	font-style:			normal;
+	font-variant:		normal;
+	font-weight:		normal;	
+}
